@@ -1,0 +1,10 @@
+{
+	"db" : [
+		{
+			"name" : "taber",
+			"host" : "localhost",
+			"user" : "root",
+			"pass" : ""
+		}
+	]
+}

@@ -1,0 +1,80 @@
+<html lang="{@lang}">
+<head>
+	<title>Registrarse</title>
+	{@@meta_tag}
+	{@@global_script}
+</head>
+<body>
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PWDPP8"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PWDPP8');</script>
+	{@@banner}
+	<header>
+		<!-- {@@banner} -->
+		{@@menu}
+	</header>
+	<h1>{@title_regRegister}</h1>
+	<form class="form-horizontal" action="controllers/register_controller.php" method="POST">
+		<div class="control-group">
+			<label class="control-label" for="name">{@lb_regName}</label>
+			<div class="controls">
+				<input name="name" type="text" placeholder="Escriba su nombre" required>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="last_name">{@lb_regLastName}</label>	
+			<div class="controls">
+				<input name="last_name" type="text" placeholder="Escriba su apellido" required>		
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="email">{@lb_regEmail}</label>	
+			<div class="controls">
+				<input type="email" name="email" placeholder="nombre@dominio.com" required>		
+			</div>			
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="user">{@lb_regUser}</label>
+			<div class="controls">
+				<input name="user_name" type="text" required>		
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="pass">{@lb_regPass}</label>
+			<div class="controls">
+				<input name="pass" type="password" required>	
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<button type="submit" class="btn btn-primary">Registrarse</button>
+				<button type="reset" class="btn btn-warning">Limpiar</button>		
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<p>
+					{#messageRegister}<br>
+					{#messageRegister2}
+				</p>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<p>
+					
+				</p>
+			</div>
+		</div>
+		<input type="hidden" name="method" value="register"> 
+	</form>
+	
+
+	{@@formsHidden}
+</body>
+</html>

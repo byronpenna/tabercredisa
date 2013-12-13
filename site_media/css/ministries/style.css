@@ -1,0 +1,55 @@
+.explanation{
+	vertical-align: top;
+	width: 30%;
+	/*background: green;*/
+	margin-left: 2%;
+	display: inline-block;
+}
+.explanation h3{
+	text-align: center;
+}
+header{
+	border-bottom: solid #ecf0f1;
+}
+.rightmin{
+	width: 88%;
+	background: pink;
+}
+.rightmin h1{
+	text-align: center;
+}
+.leftmin{
+	/*min-height: 100%;*/
+	height: 100%;
+	width: 10%;
+	background: #34495e;
+	/*border-top-right-radius: 1%;*/
+	padding-top: 1%;
+}
+.leftmin,.rightmin{
+	display: inline-block;
+	vertical-align: top;
+}
+.tileministrie{
+	/*background: red;*/
+	width: 90%;
+	min-height: 20%;
+	display: block;
+	margin: 0 auto;
+}
+.tileministrie img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.tileministrie h3{
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 100%;
+	color: #D8CE83;
+}
+.tileministrie:hover{
+	cursor: pointer;
+	background: #bdc3c7;
+	/*border-radius: 3%;*/
+}

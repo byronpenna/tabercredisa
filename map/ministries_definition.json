@@ -1,0 +1,27 @@
+{
+	"definition" :[
+		{
+			"defaultLang" : "",
+			"globalPartsHTML" :[
+				{
+					
+				}
+			],
+			"index" :[
+				{
+					"path" : "site_media/html/ministries.html"
+				},
+				{
+					"menu" : "",
+					"global_script" : "",
+					"meta_tag" : "",
+					"banner" : ""
+				},
+				{
+					"spanish" : "",
+					"english" : ""
+				}
+			]
+		}
+	]
+}

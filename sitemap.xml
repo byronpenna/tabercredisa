@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+<url>
+  <loc>http://www.tabernaculocredisa.com/</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.tabernaculocredisa.com/index.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.tabernaculocredisa.com/ministries.php</loc>
+  <priority>0.9</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.tabernaculocredisa.com/register.php</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

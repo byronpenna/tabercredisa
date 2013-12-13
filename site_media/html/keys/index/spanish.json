@@ -1,0 +1,21 @@
+{
+	"lang" : "es",
+	"title_page" : "Bienvenidos tabernaculo credisa",
+	"charset" : "utf-8",
+	"menu1" : "Inicio",
+	"menu2" : "Ministerios",
+	"menu3" : "Radio",
+	"menu4" : "Registrarse",
+	"options" : "<option value='spanish'>Español</option><option value='english'>Ingles</option>",
+	"contact" : "Contactanos",
+
+	"title_regRegister" : "Registrarse",
+	"lb_regName" : "Nombre:",
+	"lb_regLastName" : "Apellido:",
+	"lb_regEmail" : "Email:",
+	"lb_regUser" : "Usuario:",
+	"lb_regPass" : "Password:",
+	"successReg" : "Registrado exitosamente",
+	"failReg": "Error en registro",
+	"messageRegister2" : "Revisa tu email para confirmar registro"
+}

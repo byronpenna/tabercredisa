@@ -1,0 +1,13 @@
+(function($){
+	$.fn.extend({
+		menuResponsive:function(menu){
+			$(this).each(function(){
+				$(this).on('click',function(e){
+					e.preventDefault();
+					$(this).toggleClass('nav-active');
+					menu.toggleClass('open-menu')
+				});
+			});
+		}
+	});
+})(jQuery);

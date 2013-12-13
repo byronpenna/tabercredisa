@@ -1,0 +1,74 @@
+<!-- 
+KEYS {@}
+PIECE OF HTML {@@}
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="google-site-verification" content="ZVpGzN_YmCYCoDz_Nh2y1aW6Gs2sPT0DvNhS1mmP0PI" />
+	<title>{@title_page}</title>
+	{@@meta_tag}
+	{@@global_script}
+	<link rel="stylesheet" type="text/css" href="site_media/css/framework/slider/flexslider.css">
+	<script type="text/javascript" src="site_media/js/framework/flexslider/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="site_media/js/index/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="site_media/css/index/style.css">
+</head>
+<body>
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PWDPP8"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PWDPP8');</script>
+	<!-- End Google Tag Manager -->
+	{@@banner}
+	
+	<header>
+		<!-- {@@banner} -->
+		{@@menu}
+	</header>
+	<div class="sectionfirst">
+		<div class="tile">
+			<img src="site_media/img/index/home.png" class="menuIcon">	
+			<h2>Bienvenidos</h2>
+			<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen</p>
+		</div>
+		<div class="tile">
+			<img src="site_media/img/index/mision.png" class="menuIcon">	
+			<h2>Mision</h2>
+			<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen</p>
+		</div>
+		<div class="tile">
+			<img src="site_media/img/index/vision.png" class="menuIcon">	
+			<h2>Vision</h2>
+			<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen</p>
+		</div>
+	</div>
+	<div class="bodyContent">
+		<div class="flexslider">
+	  		<ul id="slider" class="slides">
+	  			{#sliderImg}
+	  		</ul>
+		</div>
+		<div class="socialMediaPlugin" id="pluginTwitter">
+			<a class="twitter-timeline" href="https://twitter.com/tabercredisa" data-widget-id="406912756248371200">Tweets por @tabercredisa</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<div class="socialMediaPlugin" id="pluginFacebook">
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="fb-like-box" data-href="https://www.facebook.com/tabercredisa" data-width="20%" data-height="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+		</div>
+		{@@formsHidden}
+	</div>
+</body>
+</html>

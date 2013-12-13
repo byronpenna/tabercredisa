@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@font-face{
+	font-family: 'track';
+	src:url('../fonts/track/OTF_files/Track.otf');
+}
+@font-face{
+	font-family: 'bellota';
+	src:url('../fonts/bellota/Bellota-Regular.otf');
+}
+@font-face{
+	font-family: 'sourceSansPro';
+	src:url('../fonts/sourceSansPro/SourceSansPro-Regular.otf');
+}
+@font-face{
+	font-family: 'openSans';
+	src:url('../fonts/openSans/OpenSans-Regular.otf');
+}
+@font-face{
+	font-family: 'bonveno';
+	src:url('../fonts/bonveno/BonvenoCF-Light.otf');
+}

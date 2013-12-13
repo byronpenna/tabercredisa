@@ -1,0 +1,42 @@
+ #pluginTwitter{
+        width: 30%;
+    }
+    .titleBanner h1{
+        font-size: 2.5em;
+        margin-top: 0;
+    }
+    .titleBanner h2{
+        font-size: 2em;
+    }
+    .titleBanner{
+        /*padding-top: 3%;*/
+        /*text-align: left;*/
+        width: 50%;
+        margin-right: 1%;
+        /*background: red;*/
+    }
+    .banner .bannerlogo{
+        /*margin-left: 30%;*/
+        /*padding-top: 3%;*/
+        width: 15%;
+        margin-bottom: 0;
+        /*min-height: 150px;*/
+        /*display: inline-block;*/
+    }
+    .banner{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        min-height: 100px;
+    }
+    .socialnetwork img{
+        display: inline-block;
+        width: 20%;
+        
+    }
+    .contact{
+        /*padding-top: 3%;*/
+    }
+    body{
+        background: green;
+    }

@@ -1,0 +1,21 @@
+{
+	"lang" : "en",
+	"title_page" : "Bienvenidos tabernaculo credisa",
+	"charset" : "utf-8",
+	"menu1" : "home",
+	"menu2" : "Ministries",
+	"menu3" : "Radio",
+	"menu4" : "Register",
+	"options" : "<option value='english'>English</option><option value='spanish'>Spanish</option>",
+	"contact" : "Contact",
+
+	"title_regRegister" : "Register",
+	"lb_regName" : "Name:",
+	"lb_regLastName" : "Lastname:",
+	"lb_regEmail" : "Email:",
+	"lb_regUser" : "User:",
+	"lb_regPass" : "Password:",
+	"successReg": "success registered",
+	"failReg": "fail registered",
+	"messageRegister2" : "please check your email to confirm"
+}

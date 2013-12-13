@@ -1,0 +1,26 @@
+{
+	"definition" :[
+		{
+			"defaultLang" : "spanish",
+			"globalPartsHTML" :[
+				{
+					
+				}
+			],
+			"index" :[
+				{
+					"path" : "site_media/html/index.html"
+				},
+				{
+					"menu" : "template/parts/menu.html",
+					"global_script" : "template/parts/globalScript.html",
+					"meta_tag" : "template/parts/metaTag.html",
+					"banner" : ""
+				},
+				{
+					"spanish" : "site_media/html/keys/index/spanish.json"
+				}
+			]
+		}
+	]
+}
