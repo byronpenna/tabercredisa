@@ -5,7 +5,7 @@ PIECE OF HTML {@@}
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="google-site-verification" content="ZVpGzN_YmCYCoDz_Nh2y1aW6Gs2sPT0DvNhS1mmP0PI" />
+	
 	<title>{@title_page}</title>
 	{@@meta_tag}
 	{@@global_script}
@@ -30,6 +30,11 @@ PIECE OF HTML {@@}
 		<!-- {@@banner} -->
 		{@@menu}
 	</header>
+	<div class="flexslider">
+  		<ul id="slider" class="slides">
+  			{#sliderImg}
+  		</ul>
+	</div>
 	<div class="sectionfirst">
 		<div class="tile">
 			<img src="site_media/img/index/home.png" class="menuIcon">	
@@ -48,8 +53,21 @@ PIECE OF HTML {@@}
 		</div>
 	</div>
 	<div class="bodyContent">
+		
+		<div class="social">
+			<div class="socialMediaPlugin" id="pluginTwitter">
+				<a class="twitter-timeline" href="https://twitter.com/tabercredisa" data-widget-id="406912756248371200">Tweets por @tabercredisa</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			
+		</div>
 		<div class="history">
 			<h2>Nuestra historia</h2>
+			<div class="one-six">
+				<img src="site_media/img/index/historia00.jpg">
+				<img src="site_media/img/index/historia01.jpg">
+				<img src="site_media/img/index/historia02.jpg">
+			</div>
 			<p>
 				Graduado en teología,. Del colegio bautista de teología de El Salvador u 6 de noviembre de 2001 a la edad de 21 años.
 				Trabajo en la misión bautista internacional de El Salvador desde el año 1999 al 2004 en los ministerio del colegio y escuelas, penales, director de misiones.
@@ -64,23 +82,31 @@ PIECE OF HTML {@@}
 			<p>
 			Ya en el nuevo local da inicio el 15 de agosto de 2007 teniendo una asistencia de 35 adultos y 15 niños, rápidamente DIOS comenzó a prosperar esta iglesia que en la actualidad se cuenta con mas de 600 miembros.
 			</p>
+			
+			<!-- <div class="adFeed">
+				<h2> Anuncios </h2>
+				<p>
+					Para los servidores del ministerio multimedia
+					ya se encuentra disponible nuevo material de
+					descarga.
+				</p>
+				<p>
+					Este sabado se reanuda el seminiario de emprendedurismo.
+				</p>
+			</div> -->
 		</div>
-		<div class="flexslider">
-	  		<ul id="slider" class="slides">
-	  			{#sliderImg}
-	  		</ul>
-		</div>
-		<div class="adFeed">
-			<h2> Anuncios </h2>
-			<!-- <img src="site_media/img/index/notes.png"> -->
-			<p>
-				Para los servidores del ministerio multimedia
-				ya se encuentra disponible nuevo material de
-				descarga.
-			</p>
-			<p>
-				Este sabado se reanuda el seminiario de emprendedurismo.
-			</p>
+		<div class="social">
+			<div class="socialMediaPlugin" id="pluginFacebook">
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+				<div class="fb-like-box" data-href="http://www.facebook.com/FacebookDevelopers" data-width="100%" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+			</div>
 		</div>
 		{@@formsHidden}
 	</div>
@@ -89,21 +115,7 @@ PIECE OF HTML {@@}
 			<h2>Horario de cultos</h2>
 			<p>Lunes a viernes: </p>
 		</div> -->
-		<!-- <div class="socialMediaPlugin" id="pluginTwitter">
-			<a class="twitter-timeline" href="https://twitter.com/tabercredisa" data-widget-id="406912756248371200">Tweets por @tabercredisa</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		</div>
-		<div class="socialMediaPlugin" id="pluginFacebook">
-			<div id="fb-root"></div>
-			<script>(function(d, s, id) {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
-				fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));</script>
-			<div class="fb-like-box" data-href="https://www.facebook.com/tabercredisa" data-width="20%" data-height="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
-		</div> -->
+		<!--  -->
 	</footer>
 </body>
 </html>

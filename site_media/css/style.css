@@ -315,7 +315,7 @@ body{
 }
 @media only screen and (max-width: 700px) {
     body{
-        background: yellow;
+        background: red;
     }
     .banner .bannerlogo{
         width: 45%;
@@ -338,6 +338,9 @@ body{
     }
 }
 @media only screen and (max-width: 400px){
+    body{
+        background: pink;
+    }
     .sectionLogin{
         /*background: green;*/
     }
