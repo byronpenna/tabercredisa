@@ -3,12 +3,13 @@ KEYS {@}
 PIECE OF HTML {@@}
 -->
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
 <head>
-	
 	<title>{@title_page}</title>
 	{@@meta_tag}
 	{@@global_script}
+	<meta property="og:image" content="http://www.tabernaculocredisa.com/site_media/img/preview.png" />
 	<link rel="stylesheet" type="text/css" href="site_media/css/framework/slider/flexslider.css">
 	<script type="text/javascript" src="site_media/js/framework/flexslider/jquery.flexslider.js"></script>
 	<script type="text/javascript" src="site_media/js/index/script.js"></script>
@@ -53,8 +54,18 @@ PIECE OF HTML {@@}
 		</div>
 	</div>
 	<div class="bodyContent">
-		
-		<div class="social">
+		<h2>Galeria de fotos</h2>
+		<div class="bodyImage">
+			<img src="site_media/img/index/retiro1.jpg">
+			<img src="site_media/img/index/retiro2.jpg">
+			<img src="site_media/img/index/taber1.jpg">
+			<img src="site_media/img/index/taber2.jpg">
+			<img src="site_media/img/index/taber3.jpg">
+			<img src="site_media/img/index/taber4.jpg">
+			<img src="site_media/img/index/taber5.jpg">
+			<img src="site_media/img/index/taber6.jpg">
+		</div>
+		<!-- <div class="social">
 			<div class="socialMediaPlugin" id="pluginTwitter">
 				<a class="twitter-timeline" href="https://twitter.com/tabercredisa" data-widget-id="406912756248371200">Tweets por @tabercredisa</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -83,17 +94,7 @@ PIECE OF HTML {@@}
 			Ya en el nuevo local da inicio el 15 de agosto de 2007 teniendo una asistencia de 35 adultos y 15 niños, rápidamente DIOS comenzó a prosperar esta iglesia que en la actualidad se cuenta con mas de 600 miembros.
 			</p>
 			
-			<!-- <div class="adFeed">
-				<h2> Anuncios </h2>
-				<p>
-					Para los servidores del ministerio multimedia
-					ya se encuentra disponible nuevo material de
-					descarga.
-				</p>
-				<p>
-					Este sabado se reanuda el seminiario de emprendedurismo.
-				</p>
-			</div> -->
+			
 		</div>
 		<div class="social">
 			<div class="socialMediaPlugin" id="pluginFacebook">
@@ -105,16 +106,104 @@ PIECE OF HTML {@@}
 					js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
 					fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));</script>
-				<div class="fb-like-box" data-href="http://www.facebook.com/FacebookDevelopers" data-width="100%" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+				<div class="fb-like-box" data-href="https://www.facebook.com/TabernaculoCiudadCredisaOficial" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+			</div>
+		</div> -->
+		<!-- <div class="adFeed">
+				<h2> Anuncios </h2>
+				<p>
+					Para los servidores del ministerio multimedia
+					ya se encuentra disponible nuevo material de
+					descarga.
+				</p>
+				<p>
+					Este sabado se reanuda el seminiario de emprendedurismo.
+				</p>
+			</div> -->
+		
+	</div>
+	{@@formsHidden}
+	<footer>
+		<div class="footerSection">
+			<h3>Horario de cultos</h3>
+			<div class="group-day">
+				<div class="day">
+					<p>Lunes:
+						<span class="descriptionSchedule">
+							Familias en victorias 6:30PM
+						</span>
+					</p>
+				</div>
+				<div class="day">
+					<p>Martes:
+						<span class="descriptionSchedule">
+							Torre de oración 6:30PM
+						</span>
+					</p>
+				</div>
+			</div>
+			<div class="group-day">
+				<div class="day">
+					<p>Miercoles:
+						<span class="descriptionSchedule">
+							Estudio Bíblico <br>6:30PM
+						</span>
+					</p>
+				</div>
+				<div class="day">
+					<p>Jueves:
+						<span class="descriptionSchedule">
+							Amaneciendo con Dios 6:00 AM
+						</span>
+					</p>
+				</div>
+			</div>
+			<div class="group-day">
+				<div class="day">
+					<p>Viernes:
+						<span class="descriptionSchedule">
+							Culto de milagros <br>6:30 AM
+						</span>
+					</p>
+				</div>
+				<div class="day">
+					<p>Sabado:
+						<span class="descriptionSchedule">
+							Jovenes en victoria 6:30 AM
+						</span>
+					</p>
+				</div>
 			</div>
 		</div>
-		{@@formsHidden}
-	</div>
-	<footer>
-		<!-- <div class="footerSection">
-			<h2>Horario de cultos</h2>
-			<p>Lunes a viernes: </p>
-		</div> -->
+		<div class="footerSection">
+			<h3>Visitanos</h3>
+			<p>
+				Calle Amatepec, Av. Ilopango, no.3 BIS ” Frente a mercadito Ciudad Credisa”
+				<iframe width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.sv/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=ciudad+credisa&amp;aq=&amp;sll=13.691478,-89.214694&amp;sspn=0.091231,0.1478&amp;ie=UTF8&amp;hq=ciudad+credisa&amp;hnear=&amp;t=m&amp;ll=13.695359,-89.164916&amp;spn=0.001564,0.001609&amp;z=18&amp;output=embed"></iframe><br />
+				<small>
+					<a href="https://maps.google.com.sv/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=ciudad+credisa&amp;aq=&amp;sll=13.691478,-89.214694&amp;sspn=0.091231,0.1478&amp;ie=UTF8&amp;hq=ciudad+credisa&amp;hnear=&amp;t=m&amp;ll=13.695359,-89.164916&amp;spn=0.001564,0.001609&amp;z=18" style="color:#0000FF;text-align:left">
+					Ver mapa más grande
+					</a>
+				</small>
+			</p>
+		</div>
+		<div class="footerSection">
+			<h3>Mapa de sitio</h3>
+			<ul>
+				<li>
+					<a href="#">Inicio</a>
+				</li>
+				<li>
+					<a href="#">Ministerios</a>
+				</li>
+				<li>
+					<a href="#">Radio</a>
+				</li>
+				<li>
+					<a href="#">Registrarse</a>
+				</li>
+			</ul>
+		</div>
 		<!--  -->
 	</footer>
 </body>

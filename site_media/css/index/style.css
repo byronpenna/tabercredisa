@@ -1,10 +1,55 @@
+
+.footerSection{
+	color: #eee;
+	/*background: red;*/
+	width: 25%;
+	padding: 1%;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 5%;
+	/*background: pink;*/
+}
+.group-day{
+	/*background: red;*/
+}
+.footerSection .group-day .day{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	/*background: green;*/
+}
+.footerSection h3{
+	text-align: center;
+}
+.footerSection .group-day .descriptionSchedule{
+	display: block;
+	margin-left: 2%;
+}
+.bodyImage{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.bodyImage img{
+	width: 20%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+}
 #twitter-widget-0{
 	width: 100%;
 }
-.fb_iframe_widget{
-	background: #FFFFFF;
-	width: 100%;
+#fb-root {
+    display: none;
 }
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+    background: #FFFFFF;
+}
+#twitter-widget-0{
+   width: 100% !important;  
+}|
 .one-six{
 	display: block;
 	margin: 0 auto;
@@ -29,7 +74,8 @@
 	/*background: #5EB950;*/
 }
 .social{
-	width: 18%;
+	width: 19.5%;
+	background: skyblue;
 }
 .history,.social{
 	display: inline-block;
@@ -129,7 +175,9 @@
 	/*display: block;*/
 	/*margin: 0 auto;*/
 	padding-bottom: 0;
+	/*background: green;*/
 }
+
 .flex-control-nav,.flex-control-paging{
 	display: none;
 }
