@@ -181,6 +181,11 @@
 .flex-control-nav,.flex-control-paging{
 	display: none;
 }
+@media only screen and (max-width: 768px) {
+	.bodyImage img{
+		width: 30%;
+	}
+}
 @media only screen and (max-width: 700px) {
 	.sectionfirst .tile{
 		/*margin-right: 5%;*/
@@ -189,11 +194,31 @@
 	.sectionfirst .tile img{
 		width: 20%;
 	}
+	.bodyImage{
+		width: 100%;
+		padding-left: 1%;
+	}
+	.bodyImage img{
+		width: 30%;
+		margin-right: 1%;
+	}
+	.footerSection{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
 }
 @media only screen and (max-width: 400px){
 	.sectionfirst .tile{
 		display: block;
 		margin: 0 auto;
 		width: 90%;
+	}
+	
+	.bodyImage img{
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+		margin-top: 2%;
 	}
 }
